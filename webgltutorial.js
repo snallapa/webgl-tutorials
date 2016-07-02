@@ -117,7 +117,7 @@
  	gl.bindBuffer(gl.ARRAY_BUFFER, triangleVertexColorBuffer);
  	var colors = [
  	1.0, 0.0, 0.0, 1.0,
- 	0.0, 1.0, 0.0, 1.0,
+ 	0.0, 0.5.0, 0.0, 1.0,
  	0.0, 0.0, 1.0, 1.0
  	];
  	gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(colors), gl.STATIC_DRAW);
